@@ -217,3 +217,23 @@ footer {
     color: #000;
     border-bottom-color: #000;
 }
+
+
+
+.publication {
+    margin-bottom: 28px;
+}
+
+.publication p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+.publication a {
+    margin-right: 12px;
+    text-decoration: none;
+}
+
+.publication a:hover {
+    text-decoration: underline;
+}
