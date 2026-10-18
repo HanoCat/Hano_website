@@ -308,4 +308,14 @@ footer {
     margin: 4px 0;
     font-size: 14px;
 }
+#contact a {
+    color: #444;
+    text-decoration: none;
+    border-bottom: 1px solid #bbb;
+}
+
+#contact a:hover {
+    color: #000;
+    border-bottom-color: #000;
+}
 
