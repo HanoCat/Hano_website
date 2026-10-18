@@ -237,3 +237,75 @@ footer {
 .publication a:hover {
     text-decoration: underline;
 }
+
+
+/* Teaching semesters */
+
+.semester {
+    padding: 15px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.semester summary {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.semester summary:hover {
+    color: #777;
+}
+
+.semester ul {
+    margin: 15px 0 5px;
+    padding-left: 22px;
+    color: #666;
+}
+
+.semester li {
+    margin-bottom: 8px;
+}
+
+/* Educational resources */
+
+.resource-item {
+    margin-bottom: 24px;
+}
+
+.resource-item h3 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.resource-item p {
+    margin: 5px 0 10px;
+}
+
+.resource-item a {
+    color: #444;
+    text-decoration: none;
+    border-bottom: 1px solid #bbb;
+    font-size: 14px;
+}
+
+.resource-item a:hover {
+    color: #000;
+    border-bottom-color: #000;
+}
+
+/* Talks */
+
+.talk-item {
+    display: grid;
+    grid-template-columns: 90px 1fr;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.talk-item p {
+    margin: 4px 0;
+    font-size: 14px;
+}
+
